@@ -29,7 +29,12 @@ import com.youth.banner.listener.OnBannerListener;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 主activity
+ * 追加一些修改
+ */
 public class MainActivity extends AppCompatActivity {
+
     private RecyclerView mRecyclerView;
     //应用
     String[] ITEM_NAMES = {"天猫", "聚划算", "天猫国际", "外卖", "天猫超市", "充值中心", "飞猪旅行", "领金币", "拍卖", "分类"};
