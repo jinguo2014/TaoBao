@@ -16,6 +16,7 @@ public class GlideImageLoader extends ImageLoader {
 
     public String getName() {
         String tag = GlideImageLoader.class.getSimpleName();
+        //这里出现一个bug，我改了。
         return tag;
     }
 }
