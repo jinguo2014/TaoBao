@@ -24,5 +24,6 @@ public class GlideImageLoader extends ImageLoader {
 
     public void setName(String name) {
         String userName = name;
+        //把代码推送到远端
     }
 }
