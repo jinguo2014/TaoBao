@@ -7,6 +7,8 @@ import com.bumptech.glide.Glide;
 import com.youth.banner.loader.ImageLoader;
 
 public class GlideImageLoader extends ImageLoader {
+    private String name;
+
     @Override
     public void displayImage(Context context, Object path, ImageView imageView) {
         Glide.with(context)
@@ -18,5 +20,9 @@ public class GlideImageLoader extends ImageLoader {
         String tag = GlideImageLoader.class.getSimpleName();
         //这里出现一个bug，我改了。
         return tag;
+    }
+
+    public void setName(String name) {
+        String userName = name;
     }
 }
